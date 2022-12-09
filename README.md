@@ -21,7 +21,7 @@ Import CSS nya copas kode dibawah ini
 Masukan pada src/Index.js, <br>
 paste setelah ini import reportWebVitals from './reportWebVitals';
 
-## Buat Folder baru pada src/
+### Buat Folder baru pada src/
 
 ### Buat Folder Screen (bebas)
 
@@ -31,5 +31,18 @@ jangan lupa instalasi dulu Extention ReactJS nya di Visual Studio Code terdiri d
 
 - [ ] JavaScript (ES6) code snippets
 - [ ] Reactjs code snippets
+- [ ] Penggunaan snippet ketikan RSC : maka snippet JS otomatis ditampilkan
+- [ ] import {Button} from 'react-bootrtap'
+
+### Instal <b>AXIOS PACKAGE NPM i AXIOS</b>
+
+- [ ] Ketikan 'npm i axios' pada terminal
+- [ ] Import pada file Employee.js
+
+### Jalankan Rest API pada Localhost:8000 dan set Route API URL
+
+- [ ] Buka File App.js Import Employee nya
+- [ ] Hapus bagian <div className="App> sampai dengan </div> penutup
+- [ ] ganti menjadi <Employee/>
 
 ### `npm start`
