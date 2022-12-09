@@ -1,7 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Button} from 'react-bootrtap'
+import axios from 'axios';
 
 const Employee = () => {
+    const [Data,setData] = useState([])
+    const GetEmployeeData = () =>{
+        //ambil data employee
+        const url = 'http://localhost:8000'
+        axios.get(url)
+        .then(response=>{
+            const result = response.data;
+            const {status, message, data}= result;
+            if(status !== 'SUCCESS'){
+                alert(message,status)
+            }
+            else{
+                setData(data)
+                console.log(data)
+            }
+        })
+        .catch(err =>{
+            console.log(err)
+        })
+    }  
+    //Memanggil function di useEffect
+
+    useEffect(()=>{
+    GetEmployeeData();
+    },[])
     return (
         <div>
             <div className='row'>
@@ -25,8 +51,9 @@ const Employee = () => {
 
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
 
+            </tbody>
             </table>
                 </div>
             </div>
