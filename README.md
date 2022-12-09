@@ -42,7 +42,7 @@ jangan lupa instalasi dulu Extention ReactJS nya di Visual Studio Code terdiri d
 ### Jalankan Rest API pada Localhost:8000 dan set Route API URL
 
 - [ ] Buka File App.js Import Employee nya
-- [ ] Hapus bagian <div className="App> sampai dengan </div> penutup
-- [ ] ganti menjadi <Employee/>
+- [ ] Hapus bagian div className="App sampai dengan /div> penutup
+- [ ] ganti menjadi Employee/>
 
 ### `npm start`
