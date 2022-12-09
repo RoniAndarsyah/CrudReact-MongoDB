@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Membuat CRUD Pada ReactJS dan MongoDB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Disini kita akan mempelajari langkah demi langkah apa saja yang harus dilakukan untuk menmbuat CRUD (Create, Read, Update, Delete) pada ReactJS dan MongoDB
 
-## Available Scripts
+## Tahapan Awal
 
-In the project directory, you can run:
+Instal terlebih dahulu projectnya dengan mengetikan
+
+### 'npx create-react-app crudmongodb'
+
+Tampilan Cepat
+Buka React Bootsrtap [https://react-bootstrap.github.io/]
 
 ### `npm start`
 
